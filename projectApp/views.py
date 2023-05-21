@@ -6,7 +6,8 @@ from django.contrib import messages
 
 #چون مقدار حجم فایل اپلودی زیر 5 مگ بود مجبور شدم فقط همین چندفایلی که تغییر دادم و بفرستم
 
-
+def babylon(request):
+    return render(request, 'projectApp/Babylon.html')
 def IndexView(request, resource):
 	return render(request,'soon.html')
 
